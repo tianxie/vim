@@ -1,0 +1,14 @@
+set nu
+set noswapfile
+set colorcolumn=80
+set cursorline
+set linebreak
+set ignorecase
+set smartcase
+set diffopt+=indent-heuristic,algorithm:patience
+set termguicolors
+set formatoptions+=ro
+set foldmethod=expr
+set foldexpr=nvim_treesitter#foldexpr()
+set foldlevel=1
+set tagfunc=v:lua.vim.lsp.tagfunc
